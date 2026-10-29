@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
-// Display Component Function
+
 function Display({ value }) {
   return (
     <input
@@ -13,7 +13,7 @@ function Display({ value }) {
   );
 }
 
-// Button Component Function
+
 function Button({ label, className = "", onClick }) {
   return (
     <button className={className} onClick={onClick}>
